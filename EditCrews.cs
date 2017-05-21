@@ -190,7 +190,8 @@ namespace vbsDB
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-
+            //unfished method
+            //using to reset form in case of mistake
         }
     }
 }

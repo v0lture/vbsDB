@@ -20,6 +20,7 @@ C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\v
 C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.EditStudent.resources
 C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.EditLeader.resources
 C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.LeaderList.resources
-C:\Users\ahamilton\Documents\GitHub\vbsDB\vbsDB\bin\Debug\vbsDB.exe.config
-C:\Users\ahamilton\Documents\GitHub\vbsDB\vbsDB\obj\Debug\vbsDB.exe
-C:\Users\ahamilton\Documents\GitHub\vbsDB\vbsDB\obj\Debug\vbsDB.pdb
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\bin\Debug\vbsDB.exe.manifest
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\bin\Debug\vbsDB.application
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.exe.manifest
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.application

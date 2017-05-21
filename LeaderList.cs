@@ -51,8 +51,8 @@ namespace vbsDB
                 contactTime = reader["ldr_contactTime"].ToString();
                 contactHow = reader["ldr_contactHow"].ToString();
                 allergies = reader["ldr_allergies"].ToString();
-                birthdate = reader["ldr_birthdate"].ToString();
                 age = reader["ldr_age"].ToString();
+                birthdate = reader["ldr_birthdate"].ToString();
                 helpWith = reader["ldr_helpWith"].ToString();
                 id = reader["ldr_id"].ToString();
             }
@@ -67,6 +67,7 @@ namespace vbsDB
             editLeader.txtContactHow.Text = contactHow;
             editLeader.txtAllergies.Text = allergies;
             editLeader.txtAge.Text = age;
+            editLeader.birthdatePicker.Value = Convert.ToDateTime(birthdate);
             editLeader.cmbHelpWith.Text = helpWith;
             editLeader.lblId.Text = id;
         }

@@ -69,18 +69,19 @@
             // btnReset
             // 
             this.btnReset.Location = new System.Drawing.Point(365, 223);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(4);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(100, 28);
             this.btnReset.TabIndex = 25;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Visible = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnUpdate
             // 
             this.btnUpdate.Location = new System.Drawing.Point(220, 223);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(100, 28);
             this.btnUpdate.TabIndex = 24;
@@ -151,7 +152,7 @@
             // txtCrew4
             // 
             this.txtCrew4.Location = new System.Drawing.Point(95, 127);
-            this.txtCrew4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCrew4.Margin = new System.Windows.Forms.Padding(4);
             this.txtCrew4.Name = "txtCrew4";
             this.txtCrew4.Size = new System.Drawing.Size(180, 22);
             this.txtCrew4.TabIndex = 12;
@@ -159,7 +160,7 @@
             // txtCrew3
             // 
             this.txtCrew3.Location = new System.Drawing.Point(95, 95);
-            this.txtCrew3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCrew3.Margin = new System.Windows.Forms.Padding(4);
             this.txtCrew3.Name = "txtCrew3";
             this.txtCrew3.Size = new System.Drawing.Size(180, 22);
             this.txtCrew3.TabIndex = 8;
@@ -167,7 +168,7 @@
             // txtCrew2
             // 
             this.txtCrew2.Location = new System.Drawing.Point(95, 63);
-            this.txtCrew2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCrew2.Margin = new System.Windows.Forms.Padding(4);
             this.txtCrew2.Name = "txtCrew2";
             this.txtCrew2.Size = new System.Drawing.Size(180, 22);
             this.txtCrew2.TabIndex = 4;
@@ -175,7 +176,7 @@
             // txtCrew1
             // 
             this.txtCrew1.Location = new System.Drawing.Point(95, 31);
-            this.txtCrew1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCrew1.Margin = new System.Windows.Forms.Padding(4);
             this.txtCrew1.Name = "txtCrew1";
             this.txtCrew1.Size = new System.Drawing.Size(180, 22);
             this.txtCrew1.TabIndex = 0;
@@ -183,7 +184,7 @@
             // txtCrew5
             // 
             this.txtCrew5.Location = new System.Drawing.Point(95, 159);
-            this.txtCrew5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCrew5.Margin = new System.Windows.Forms.Padding(4);
             this.txtCrew5.Name = "txtCrew5";
             this.txtCrew5.Size = new System.Drawing.Size(180, 22);
             this.txtCrew5.TabIndex = 16;
@@ -191,7 +192,7 @@
             // txtCrewPre
             // 
             this.txtCrewPre.Location = new System.Drawing.Point(95, 191);
-            this.txtCrewPre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCrewPre.Margin = new System.Windows.Forms.Padding(4);
             this.txtCrewPre.Name = "txtCrewPre";
             this.txtCrewPre.Size = new System.Drawing.Size(180, 22);
             this.txtCrewPre.TabIndex = 20;
@@ -199,7 +200,7 @@
             // txtColor4
             // 
             this.txtColor4.Location = new System.Drawing.Point(284, 127);
-            this.txtColor4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtColor4.Margin = new System.Windows.Forms.Padding(4);
             this.txtColor4.Name = "txtColor4";
             this.txtColor4.Size = new System.Drawing.Size(132, 22);
             this.txtColor4.TabIndex = 13;
@@ -207,7 +208,7 @@
             // txtColor3
             // 
             this.txtColor3.Location = new System.Drawing.Point(284, 95);
-            this.txtColor3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtColor3.Margin = new System.Windows.Forms.Padding(4);
             this.txtColor3.Name = "txtColor3";
             this.txtColor3.Size = new System.Drawing.Size(132, 22);
             this.txtColor3.TabIndex = 9;
@@ -215,7 +216,7 @@
             // txtColor2
             // 
             this.txtColor2.Location = new System.Drawing.Point(284, 63);
-            this.txtColor2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtColor2.Margin = new System.Windows.Forms.Padding(4);
             this.txtColor2.Name = "txtColor2";
             this.txtColor2.Size = new System.Drawing.Size(132, 22);
             this.txtColor2.TabIndex = 5;
@@ -223,7 +224,7 @@
             // txtColor1
             // 
             this.txtColor1.Location = new System.Drawing.Point(284, 31);
-            this.txtColor1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtColor1.Margin = new System.Windows.Forms.Padding(4);
             this.txtColor1.Name = "txtColor1";
             this.txtColor1.Size = new System.Drawing.Size(132, 22);
             this.txtColor1.TabIndex = 1;
@@ -231,7 +232,7 @@
             // txtColor5
             // 
             this.txtColor5.Location = new System.Drawing.Point(284, 159);
-            this.txtColor5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtColor5.Margin = new System.Windows.Forms.Padding(4);
             this.txtColor5.Name = "txtColor5";
             this.txtColor5.Size = new System.Drawing.Size(132, 22);
             this.txtColor5.TabIndex = 17;
@@ -239,7 +240,7 @@
             // txtColorPre
             // 
             this.txtColorPre.Location = new System.Drawing.Point(284, 191);
-            this.txtColorPre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtColorPre.Margin = new System.Windows.Forms.Padding(4);
             this.txtColorPre.Name = "txtColorPre";
             this.txtColorPre.Size = new System.Drawing.Size(132, 22);
             this.txtColorPre.TabIndex = 21;
@@ -247,7 +248,7 @@
             // txtBuddy4
             // 
             this.txtBuddy4.Location = new System.Drawing.Point(425, 127);
-            this.txtBuddy4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBuddy4.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuddy4.Name = "txtBuddy4";
             this.txtBuddy4.Size = new System.Drawing.Size(132, 22);
             this.txtBuddy4.TabIndex = 14;
@@ -255,7 +256,7 @@
             // txtBuddy3
             // 
             this.txtBuddy3.Location = new System.Drawing.Point(425, 95);
-            this.txtBuddy3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBuddy3.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuddy3.Name = "txtBuddy3";
             this.txtBuddy3.Size = new System.Drawing.Size(132, 22);
             this.txtBuddy3.TabIndex = 10;
@@ -263,7 +264,7 @@
             // txtBuddy2
             // 
             this.txtBuddy2.Location = new System.Drawing.Point(425, 63);
-            this.txtBuddy2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBuddy2.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuddy2.Name = "txtBuddy2";
             this.txtBuddy2.Size = new System.Drawing.Size(132, 22);
             this.txtBuddy2.TabIndex = 6;
@@ -271,7 +272,7 @@
             // txtBuddy1
             // 
             this.txtBuddy1.Location = new System.Drawing.Point(425, 31);
-            this.txtBuddy1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBuddy1.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuddy1.Name = "txtBuddy1";
             this.txtBuddy1.Size = new System.Drawing.Size(132, 22);
             this.txtBuddy1.TabIndex = 2;
@@ -279,7 +280,7 @@
             // txtBuddy5
             // 
             this.txtBuddy5.Location = new System.Drawing.Point(425, 159);
-            this.txtBuddy5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBuddy5.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuddy5.Name = "txtBuddy5";
             this.txtBuddy5.Size = new System.Drawing.Size(132, 22);
             this.txtBuddy5.TabIndex = 18;
@@ -287,7 +288,7 @@
             // txtBuddyPre
             // 
             this.txtBuddyPre.Location = new System.Drawing.Point(425, 191);
-            this.txtBuddyPre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBuddyPre.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuddyPre.Name = "txtBuddyPre";
             this.txtBuddyPre.Size = new System.Drawing.Size(132, 22);
             this.txtBuddyPre.TabIndex = 22;
@@ -295,7 +296,7 @@
             // txtDay4
             // 
             this.txtDay4.Location = new System.Drawing.Point(567, 127);
-            this.txtDay4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDay4.Margin = new System.Windows.Forms.Padding(4);
             this.txtDay4.Name = "txtDay4";
             this.txtDay4.Size = new System.Drawing.Size(28, 22);
             this.txtDay4.TabIndex = 15;
@@ -303,7 +304,7 @@
             // txtDay3
             // 
             this.txtDay3.Location = new System.Drawing.Point(567, 95);
-            this.txtDay3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDay3.Margin = new System.Windows.Forms.Padding(4);
             this.txtDay3.Name = "txtDay3";
             this.txtDay3.Size = new System.Drawing.Size(28, 22);
             this.txtDay3.TabIndex = 11;
@@ -311,7 +312,7 @@
             // txtDay2
             // 
             this.txtDay2.Location = new System.Drawing.Point(567, 63);
-            this.txtDay2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDay2.Margin = new System.Windows.Forms.Padding(4);
             this.txtDay2.Name = "txtDay2";
             this.txtDay2.Size = new System.Drawing.Size(28, 22);
             this.txtDay2.TabIndex = 7;
@@ -319,7 +320,7 @@
             // txtDay1
             // 
             this.txtDay1.Location = new System.Drawing.Point(567, 31);
-            this.txtDay1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDay1.Margin = new System.Windows.Forms.Padding(4);
             this.txtDay1.Name = "txtDay1";
             this.txtDay1.Size = new System.Drawing.Size(28, 22);
             this.txtDay1.TabIndex = 3;
@@ -327,7 +328,7 @@
             // txtDay5
             // 
             this.txtDay5.Location = new System.Drawing.Point(567, 159);
-            this.txtDay5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDay5.Margin = new System.Windows.Forms.Padding(4);
             this.txtDay5.Name = "txtDay5";
             this.txtDay5.Size = new System.Drawing.Size(28, 22);
             this.txtDay5.TabIndex = 19;
@@ -335,7 +336,7 @@
             // txtDayPre
             // 
             this.txtDayPre.Location = new System.Drawing.Point(567, 191);
-            this.txtDayPre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDayPre.Margin = new System.Windows.Forms.Padding(4);
             this.txtDayPre.Name = "txtDayPre";
             this.txtDayPre.Size = new System.Drawing.Size(28, 22);
             this.txtDayPre.TabIndex = 23;
@@ -422,7 +423,7 @@
             this.Controls.Add(this.txtCrew5);
             this.Controls.Add(this.txtCrewPre);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EditCrews";
             this.Text = "Edit Crews";
             this.Load += new System.EventHandler(this.EditCrews_Load);

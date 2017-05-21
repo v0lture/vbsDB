@@ -51,7 +51,8 @@ namespace vbsDB
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-             
+            //unfinished method
+            //used to reser form
         }
 
         private void EditLeader_Load(object sender, EventArgs e)

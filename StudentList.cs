@@ -57,7 +57,7 @@ namespace vbsDB
                 groupWith = reader["stu_groupWith"].ToString();
                 crew = reader["stu_crew"].ToString();
                 id = reader["stu_id"].ToString();
-            }
+            }  
             editStudent.Show();
             editStudent.txtName.Text = name;
             editStudent.txtParent.Text = parent;
@@ -69,6 +69,7 @@ namespace vbsDB
             editStudent.txtContactTime.Text = contactTime;
             editStudent.txtContactHow.Text = contactHow;
             editStudent.txtAllergies.Text = allergies;
+            editStudent.birthdatePicker.Value = Convert.ToDateTime(birthdate);
             editStudent.txtAge.Text = age;
             editStudent.txtGroupWith.Text = groupWith;
             editStudent.cmbCrew.Text = crew;

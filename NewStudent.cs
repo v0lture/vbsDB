@@ -68,7 +68,8 @@ namespace vbsDB
 
         private void btnAutoCrew_Click(object sender, EventArgs e)
         {
-
+            //unfinished method
+            //used to autosort students into their proper crew
         }
 
         private void NewStudent_Load(object sender, EventArgs e)
