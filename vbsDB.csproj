@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3660FF61-954E-4099-9BE2-5FAADFE81ECA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>vbsDB</RootNamespace>
+    <AssemblyName>vbsDB</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllergyList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllergyList.Designer.cs">
+      <DependentUpon>AllergyList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance.Designer.cs">
+      <DependentUpon>Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditLeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditLeader.Designer.cs">
+      <DependentUpon>EditLeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaderList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeaderList.Designer.cs">
+      <DependentUpon>LeaderList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditStudent.Designer.cs">
+      <DependentUpon>EditStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Crews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Crews.Designer.cs">
+      <DependentUpon>Crews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCrews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCrews.Designer.cs">
+      <DependentUpon>EditCrews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailingLabels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MailingLabels.Designer.cs">
+      <DependentUpon>MailingLabels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewLeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewLeader.Designer.cs">
+      <DependentUpon>NewLeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewStudent.Designer.cs">
+      <DependentUpon>NewStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewYear.Designer.cs">
+      <DependentUpon>NewYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentList.Designer.cs">
+      <DependentUpon>StudentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vbsDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vbsDB.Designer.cs">
+      <DependentUpon>vbsDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AllergyList.resx">
+      <DependentUpon>AllergyList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance.resx">
+      <DependentUpon>Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditLeader.resx">
+      <DependentUpon>EditLeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaderList.resx">
+      <DependentUpon>LeaderList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStudent.resx">
+      <DependentUpon>EditStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crews.resx">
+      <DependentUpon>Crews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCrews.resx">
+      <DependentUpon>EditCrews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewLeader.resx">
+      <DependentUpon>NewLeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewStudent.resx">
+      <DependentUpon>NewStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentList.resx">
+      <DependentUpon>StudentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vbsDB.resx">
+      <DependentUpon>vbsDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

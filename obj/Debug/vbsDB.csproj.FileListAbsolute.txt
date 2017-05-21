@@ -1,0 +1,25 @@
+C:\Users\ahamilton\AppData\Local\Temporary Projects\vbsDB\bin\Debug\vbsDB.exe.config
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\bin\Debug\vbsDB.exe.config
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\bin\Debug\vbsDB.exe
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\bin\Debug\vbsDB.pdb
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.csprojResolveAssemblyReference.cache
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.vbsDB.resources
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.Properties.Resources.resources
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.csproj.GenerateResource.Cache
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.exe
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.pdb
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.Attendance.resources
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.NewLeader.resources
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\bin\Debug\MySql.Data.dll
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\bin\Debug\MySql.Data.Entity.dll
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.NewStudent.resources
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.Crews.resources
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.EditCrews.resources
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.StudentList.resources
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.AllergyList.resources
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.EditStudent.resources
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.EditLeader.resources
+C:\Users\ahamilton\Documents\Visual Studio 2012\Projects\vbsDB\vbsDB\obj\Debug\vbsDB.LeaderList.resources
+C:\Users\ahamilton\Documents\GitHub\vbsDB\vbsDB\bin\Debug\vbsDB.exe.config
+C:\Users\ahamilton\Documents\GitHub\vbsDB\vbsDB\obj\Debug\vbsDB.exe
+C:\Users\ahamilton\Documents\GitHub\vbsDB\vbsDB\obj\Debug\vbsDB.pdb
